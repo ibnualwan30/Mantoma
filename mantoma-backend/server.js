@@ -17,7 +17,7 @@ app.use(
     origin: [
       "http://192.168.18.74:5174", 
       "http://localhost:5174",
-      "https://mantomaku.netlify.app"  // Tambah ini!
+      "https://mantomaku.netlify.app"  
     ],
     credentials: true,
   })
