@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Backend base URL - UPDATED TO CORRECT IP
-const BASE_URL = 'https://mantoma-backend1.vercel.app/api';
+const BASE_URL = 'https://mantoma-backend-production.up.railway.app/api';
 
 // Axios instance with default config - INCREASED TIMEOUT
 const apiClient = axios.create({

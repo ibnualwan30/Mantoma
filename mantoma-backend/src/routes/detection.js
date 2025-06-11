@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const detectionController = require("../controllers/detectionController");
-const uploadMiddleware = require("../middleware/uploadMiddleware");
+const uploadMiddleware = require("../middleware/UploadMiddleware");
 
 // Upload image and analyze
 router.post("/analyze", uploadMiddleware, detectionController.analyzeImage);

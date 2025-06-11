@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Backend API for Mantoma - Tomato Leaf Disease Detection System",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "node server.js",
+    "start": "node --max-old-space-size=1024 server.js",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
