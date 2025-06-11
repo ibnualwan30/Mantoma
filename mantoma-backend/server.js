@@ -14,7 +14,11 @@ const PORT = process.env.PORT || 5001;
 // Enable CORS for frontend URLs - FIXED IP ADDRESS
 app.use(
   cors({
-    origin: ["http://192.168.18.74:5174", "http://localhost:5174"],
+    origin: [
+      "http://192.168.18.74:5174", 
+      "http://localhost:5174",
+      "https://mantomaku.netlify.app"  // Tambah ini!
+    ],
     credentials: true,
   })
 );
